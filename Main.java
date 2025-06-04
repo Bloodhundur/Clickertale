@@ -577,6 +577,7 @@ public class Main extends JPanel {
     while (true) {
       keyboardExample.repaint();
       keyboardExample.custom_cursor();
+      Thread.sleep(16);
     }
   }
 
@@ -766,7 +767,14 @@ public class Main extends JPanel {
             }
           } catch (InterruptedException ex) {
           }
-        }
+        } else {
+		try {
+
+		Thread.sleep(50);}
+		catch (InterruptedException e) {
+    e.printStackTrace(); // or just break the loop
+}
+	}
       }
     }
   }
@@ -783,6 +791,12 @@ public class Main extends JPanel {
           r.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
         } catch (Exception e) {
         }
+	try{
+	Thread.sleep(10);
+	}
+	catch (InterruptedException e) {
+    e.printStackTrace(); // or just break the loop
+}
       }
     }
   }
@@ -1515,6 +1529,11 @@ public class Main extends JPanel {
 
     public void run() {
       for (int hpchecker = 0; hpchecker < 5;) {
+	      try {
+	      Thread.sleep(10);
+	      }
+	      catch (InterruptedException ex) {
+          }
         if (BossHP <= 340 && BossHP > 180 && debugphase == 0 && int_random != 5) {
           bonegapspeed = 2;
           Head = HeadImagePhase2;
