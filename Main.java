@@ -66,7 +66,7 @@ public class Main extends JPanel {
   public volatile int BulletY, BulletX = 0;
   public static int BoneGapY = -34;
   public static int BoneGapY2 = 800;
-  public volatile int BoneSpeed = 4;
+  public volatile int BoneSpeed = 6;
   public volatile int BoneGapNumber = 3;
   public volatile int upperboundchoice = 2;
   public volatile int[] blueororange = new int[5];
@@ -93,7 +93,7 @@ public class Main extends JPanel {
   public static int BlasterPositionRY, BlasterPositionLY = 0;
   public static int BoneSlideY1 = 0;
   public static int BoneSlideY2 = 0;
-  public volatile int bonegapspeed = 3;
+  public volatile int bonegapspeed = 5;
   public volatile int orangeattack, blueattack = 0;
   public volatile int HBWPX, VBWPY = 0;// Horizontal Bone Wall Position X & Vertical Bone Wall Position Y
   public volatile int RedDeathSpeed = 2000;
@@ -1535,10 +1535,10 @@ public class Main extends JPanel {
 	      catch (InterruptedException ex) {
           }
         if (BossHP <= 340 && BossHP > 180 && debugphase == 0 && int_random != 5) {
-          bonegapspeed = 2;
+          bonegapspeed = 4;
           Head = HeadImagePhase2;
           BoneZoneNumber = 5;
-          BoneSpeed = 3;
+          BoneSpeed = 5;
           NOA = 4;
           BoneGapNumber = 4;
           BlasterShootSpeed = 650;
@@ -1547,10 +1547,10 @@ public class Main extends JPanel {
           debugphase = 1;
         }
         if (BossHP <= 180 && BossHP > 1 && debugphase == 1 && int_random != 5) {
-          bonegapspeed = 1;
+          bonegapspeed = 3;
           Head = HeadImagePhase3;
           BoneZoneNumber = 6;
-          BoneSpeed = 2;
+          BoneSpeed = 4;
           NOA = 5;
           BoneGapNumber = 5;
           BlasterShootSpeed = 450;
