@@ -20,7 +20,7 @@ Your final **score** depends on:
 
 ### Example Gameplay
 
-[Watch Gameplay (MP4)](readmeassets/ezgif-8b108c4beb55b1.mp4)
+https://github.com/user-attachments/assets/34e56a9c-7b1b-447a-af7f-6ce654e4ae13
 
 ---
 
