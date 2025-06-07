@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/34e56a9c-7b1b-447a-af7f-6ce654e4ae13
 
 ## Soul Abilities
 
-![Gameplay Demo](readmeassets/ezgif-1dd95083fc743c.gif)
+<img src="readmeassets/ezgif-1dd95083fc743c.gif" width="50%" height="50%"/>
 
 Choose from 7 different souls (plus a hidden 8th) — each with a unique ability:
 
@@ -52,8 +52,7 @@ Choose from 7 different souls (plus a hidden 8th) — each with a unique ability
 - Move to avoid **orange** attacks
 
 ### Example
-![Example Gif](readmeassets/ezgif-7aec2b3ec4965e.gif)
-
+<img src="readmeassets/ezgif-7aec2b3ec4965e.gif" width="30%" height="30%"/>
 ---
 
 ## Tech Stack
