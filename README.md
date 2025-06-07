@@ -53,6 +53,7 @@ Choose from 7 different souls (plus a hidden 8th) — each with a unique ability
 
 ### Example
 <img src="readmeassets/ezgif-7aec2b3ec4965e.gif" width="30%" height="30%"/>
+
 ---
 
 ## Tech Stack
