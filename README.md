@@ -18,6 +18,10 @@ Your final **score** depends on:
 - The boss’s remaining HP (if you lose)
 - Your HP (if you win)
 
+### Example Gameplay
+
+[Watch Gameplay (MP4)](readmeassets/ezgif-8b108c4beb55b1.mp4)
+
 ---
 
 ## Soul Abilities
@@ -46,6 +50,9 @@ Choose from 7 different souls (plus a hidden 8th) — each with a unique ability
 **Combat Tips:**
 - Don’t move to avoid **blue** attacks
 - Move to avoid **orange** attacks
+
+### Example
+![Example Gif](readmeassets/ezgif-7aec2b3ec4965e.gif)
 
 ---
 
